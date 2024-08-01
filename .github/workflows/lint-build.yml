@@ -13,7 +13,7 @@ jobs:
       - name: Instal dependencies
         run: npm ci
       - name: Run lint
-        run: npm lint
+        run: npm run lint
 
   test:
     runs-on: ubuntu-latest
@@ -41,5 +41,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run build
-        run: npm build
+        run: npm run build
 
